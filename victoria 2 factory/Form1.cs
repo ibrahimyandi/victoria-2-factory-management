@@ -54,7 +54,7 @@ namespace victoria_2_factory
                 imageList1.Images.Add(Image.FromFile(Application.StartupPath + @"\images\" + product.Name + ".png"));
             }
 
-            this.imageList1.ImageSize = new Size(32, 32);
+            this.imageList1.ImageSize = new Size(26, 26);
             this.listView1.LargeImageList = this.imageList1;
             this.listView2.LargeImageList = this.imageList1;
 
