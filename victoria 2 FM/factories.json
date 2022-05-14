@@ -1,0 +1,213 @@
+[
+  {
+    "Name": "Aeroplanes",
+    "Inputs": [
+      "Rubber",
+      "Electric Gear",
+      "Lumber",
+      "Machine Parts"
+    ]
+  },
+  {
+    "Name": "Ammunition",
+    "Inputs": [
+      "Sulphur",
+      "Iron"
+    ]
+  },
+  {
+    "Name": "Artillery",
+    "Inputs": [
+      "Steel",
+      "Explosives"
+    ]
+  },
+  {
+    "Name": "Automobiles",
+    "Inputs": [
+      "Rubber",
+      "Electric Gear",
+      "Steel",
+      "Machine Parts"
+    ]
+  },
+  {
+    "Name": "Tanks",
+    "Inputs": [
+      "Rubber",
+      "Electric Gear",
+      "Machine Parts",
+      "Automobiles"
+    ]
+  },
+  {
+    "Name": "Canned Food",
+    "Inputs": [
+      "Fish",
+      "Cattle",
+      "Grain",
+      "Iron"
+    ]
+  },
+  {
+    "Name": "Cement",
+    "Inputs": [
+      "Coal"
+    ]
+  },
+  {
+    "Name": "Clipper Convoys",
+    "Inputs": [
+      "Timber",
+      "Fabric",
+      "Steel"
+    ]
+  },
+  {
+    "Name": "Dye",
+    "Inputs": [
+      "Coal"
+    ]
+  },
+  {
+    "Name": "Electric Gear",
+    "Inputs": [
+      "Rubber",
+      "Coal",
+      "Iron"
+    ]
+  },
+  {
+    "Name": "Explosives",
+    "Inputs": [
+      "Fertilizer",
+      "Ammunition"
+    ]
+  },
+  {
+    "Name": "Fabric",
+    "Inputs": [
+      "Cotton",
+      "Dye"
+    ]
+  },
+  {
+    "Name": "Fertilizer",
+    "Inputs": [
+      "Sulphur"
+    ]
+  },
+  {
+    "Name": "Fuel",
+    "Inputs": [
+      "Oil"
+    ]
+  },
+  {
+    "Name": "Furniture",
+    "Inputs": [
+      "Timber",
+      "Lumber"
+    ]
+  },
+  {
+    "Name": "Glass",
+    "Inputs": [
+      "Coal"
+    ]
+  },
+  {
+    "Name": "Liquor",
+    "Inputs": [
+      "Glass",
+      "Grain"
+    ]
+  },
+  {
+    "Name": "Lumber",
+    "Inputs": [
+      "Timber"
+    ]
+  },
+  {
+    "Name": "Luxury Clothes",
+    "Inputs": [
+      "Regular Clothes",
+      "Silk"
+    ]
+  },
+  {
+    "Name": "Luxury Furniture",
+    "Inputs": [
+      "Furniture",
+      "Tropical Wood"
+    ]
+  },
+  {
+    "Name": "Machine Parts",
+    "Inputs": [
+      "Coal",
+      "Steel"
+    ]
+  },
+  {
+    "Name": "Paper",
+    "Inputs": [
+      "Timber"
+    ]
+  },
+  {
+    "Name": "Radios",
+    "Inputs": [
+      "Electric Gear",
+      "Glass"
+    ]
+  },
+  {
+    "Name": "Regular Clothes",
+    "Inputs": [
+      "Fabric"
+    ]
+  },
+  {
+    "Name": "Small Arms",
+    "Inputs": [
+      "Ammunition",
+      "Steel"
+    ]
+  },
+  {
+    "Name": "Steamer Convoys",
+    "Inputs": [
+      "Coal",
+      "Steel"
+    ]
+  },
+  {
+    "Name": "Steel",
+    "Inputs": [
+      "Coal",
+      "Iron"
+    ]
+  },
+  {
+    "Name": "Oil",
+    "Inputs": [
+      "Coal"
+    ]
+  },
+  {
+    "Name": "Telephones",
+    "Inputs": [
+      "Electric Gear",
+      "Glass"
+    ]
+  },
+  {
+    "Name": "Wine",
+    "Inputs": [
+      "Fruit",
+      "Glass"
+    ]
+  }
+]
