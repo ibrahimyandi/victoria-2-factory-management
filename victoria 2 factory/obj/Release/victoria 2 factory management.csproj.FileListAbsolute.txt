@@ -1,0 +1,14 @@
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Release\victoria 2 factory.exe.config
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Release\victoria 2 factory.exe
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Release\Newtonsoft.Json.dll
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Release\Newtonsoft.Json.xml
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory management.csproj.AssemblyReference.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory management.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria_2_factory.Form1.resources
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria_2_factory.Properties.Resources.resources
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory management.csproj.GenerateResource.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory management.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory management.csproj.CopyComplete
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory.exe
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Release\victoria 2 factory.pdb
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Release\victoria 2 factory.pdb

@@ -12,3 +12,17 @@ C:\Users\ibrah\source\repos\victoria 2 factory\victoria 2 factory\obj\Debug\vict
 C:\Users\ibrah\source\repos\victoria 2 factory\victoria 2 factory\obj\Debug\victoria 2 factory.exe
 C:\Users\ibrah\source\repos\victoria 2 factory\victoria 2 factory\obj\Debug\victoria 2 factory.pdb
 C:\Users\ibrah\source\repos\victoria 2 factory\victoria 2 factory\obj\Debug\victoria_2_factory.Form1.resources
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Debug\victoria 2 factory.exe.config
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Debug\victoria 2 factory.exe
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Debug\victoria 2 factory.pdb
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.csproj.AssemblyReference.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.csproj.SuggestedBindingRedirects.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria_2_factory.Form1.resources
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria_2_factory.Properties.Resources.resources
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.csproj.GenerateResource.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.csproj.CopyComplete
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.exe
+C:\Users\ibrah\Documents\GitHub\victoria-2-factory-management\victoria 2 factory\obj\Debug\victoria 2 factory.pdb
