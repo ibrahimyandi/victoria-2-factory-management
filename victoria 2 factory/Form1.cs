@@ -25,6 +25,12 @@ namespace victoria_2_factory
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.BackgroundColor = Color.White;
+            dataGridView2.BackgroundColor = Color.White;
+            dataGridView2.AllowUserToDeleteRows = false;
+            dataGridView2.RowHeadersVisible = false;
             string provinceJson = File.ReadAllText(Application.StartupPath + "\\province.json");
             var province = JsonConvert.DeserializeObject<List<province>>(provinceJson);
 
@@ -82,9 +88,10 @@ namespace victoria_2_factory
                 }
             }
         }
-
+        List<FactoriesPriority> fp1 = new List<FactoriesPriority>();
         private void listView1_Click(object sender, EventArgs e)
         {
+
             if (listView1.SelectedIndices.Count <= 0)
             {
                 return;
@@ -106,14 +113,9 @@ namespace victoria_2_factory
                 listView2.Items.Add(listView1.Items[intselectedindex].Text, intselectedindex);
             }
 
-
-            LW2Countrol();
-        }
-        public void LW2Countrol()
-        {
             string json = File.ReadAllText(Application.StartupPath + "\\factories.json");
             var factories = JsonConvert.DeserializeObject<List<Factories>>(json);
-            int intselectedindex = listView1.SelectedIndices[0];
+            int counter = 1;
 
             foreach (var factory in factories)
             {
@@ -121,31 +123,47 @@ namespace victoria_2_factory
                 {
                     if (product == listView1.Items[intselectedindex].Text)
                     {
-                        if (!listBox4.Items.Contains(listView1.Items[intselectedindex].Text) && !listBox4.Items.Contains(factory.Name))
+                        int index = fp1.FindIndex(i => i.Name == factory.Name);
+                        if (index != -1)
                         {
-                            listBox4.Items.Add(factory.Name);
+                            fp1[index] = new FactoriesPriority { Name = factory.Name, Priority = fp1[index].Priority + 1 };
+                        }
+                        else
+                        {
+                            fp1.Add(new FactoriesPriority { Name = factory.Name, Priority = counter });
                         }
                     }
                 }
             }
+            var bindingList = new BindingList<FactoriesPriority>(fp1).OrderByDescending(x => x.Priority).ToList();
+            var source = new BindingSource(bindingList, null);
+            dataGridView2.DataSource = source;
+
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             listView2.Items.Clear();
-            listBox4.Items.Clear();
+            fp1.Clear();
+            var bindingList = new BindingList<FactoriesPriority>(fp1).OrderByDescending(x => x.Priority).ToList();
+            var source = new BindingSource(bindingList, null);
+            dataGridView2.DataSource = source;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            List<FactoriesPriority> fp = new List<FactoriesPriority>();
             string json = File.ReadAllText(Application.StartupPath + "\\factories.json");
             var factories = JsonConvert.DeserializeObject<List<Factories>>(json);
 
             listBox2.Items.Clear();
-            listBox3.Items.Clear();
+            dataGridView1.Rows.Clear();
             string provinceJson = File.ReadAllText(Application.StartupPath + "\\province.json");
             var province = JsonConvert.DeserializeObject<List<province>>(provinceJson);
             string selectedRegion = listBox1.SelectedItem.ToString();
+            int counter = 1;
+
             foreach (var item in province)
             {
                 if (selectedRegion == item.Region.ToLower() && !listBox2.Items.Contains(item.Resource))
@@ -155,15 +173,31 @@ namespace victoria_2_factory
                     {
                         foreach (var product in factory.Inputs)
                         {
-                            if (product == item.Resource && !listBox3.Items.Contains(factory.Name))
+                            if (product == item.Resource)
                             {
-                                listBox3.Items.Add(factory.Name);
+                                int index = fp.FindIndex(i => i.Name == factory.Name);
+                                if (index != -1)
+                                {
+                                    fp[index] = new FactoriesPriority { Name = factory.Name, Priority = fp[index].Priority+1 };
+                                }
+                                else
+                                {
+                                    fp.Add(new FactoriesPriority { Name = factory.Name, Priority = counter });
+                                }
                             }
                         }
                     }
                 }
             }
+            var bindingList = new BindingList<FactoriesPriority>(fp).OrderByDescending(x => x.Priority).ToList();
+            var source = new BindingSource(bindingList, null);
+            dataGridView1.DataSource = source;
         }
+    }
+    public class FactoriesPriority
+    {
+        public string Name { get; set; }
+        public int Priority { get; set; }
     }
     public class Factories
     {
